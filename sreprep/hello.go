@@ -1,4 +1,4 @@
-package hello
+package sreprep
 
 import (
 	"rsc.io/quote"            // Different minor versions and patches can in the same path

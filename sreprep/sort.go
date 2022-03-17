@@ -1,4 +1,4 @@
-package sort
+package sreprep
 
 func MergeSort(array []int) []int {
 	// Base case
