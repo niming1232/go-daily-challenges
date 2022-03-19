@@ -23,7 +23,7 @@ func MergeSort(array []int) []int {
 	if i < len(firstHalf) {
 		mergedArray = append(mergedArray, firstHalf[i:]...)
 	} else if j < len(secondHalf) {
-		mergedArray = append(mergedArray, secondHalf[j:]...)
+		mergedArray = append(mergedArray, secondHalf[j:]...) // variadic function (can have any number of trailing arguments)
 	}
 	return mergedArray
 }
